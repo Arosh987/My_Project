@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+}
+
+input{
+	background: darkgray;
+	color: floralwhite;
+	font-size: 15px;
+	border: 5px solid #3bc0de;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+
+#RF{
+	font-family: 'Nunito';
+	font-weight: 350;
+	margin: 10px 200px 15px 200px;
+	padding-top: 23px;
+}
+
+
+
+#bm{
+	font-family: Nunito;
+	font-weight: 350;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 2px solid #FAA632;
+	border-radius: 50px;
+	background: linear-gradient(45deg, red, orange);
+	box-shadow: 0px 0px 5px rgba(255, 75, 51, 1);
+	transition: 0.4s;
+}
+
+#bm:hover{
+	background: linear-gradient(45deg, orange, red);
+	box-shadow: 5px 5px 15px rgba(255, 75, 51, 1);
+	transition: 0.4s;
+}
+
+#show{
+	color: red;
+}

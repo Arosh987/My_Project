@@ -1,0 +1,85 @@
+#GradeCalc{
+		text-align: center;
+		font-family: sans-serif;
+		border: 4.5px solid #001C57;
+		border-radius: 20px;
+		background: lightskyblue;
+		max-width: 600px;
+		margin: 0 auto; 
+}
+
+@media only screen and (max-width: 360px) {
+    #GradeCalc {
+		width: 90%;
+        max-width: 320px;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+    #GradeCalc {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #GradeCalc {
+        width: 85%;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1366px) {
+    #GradeCalc {
+        width: 80%;
+        max-width: 570px;
+    }
+}
+
+@media only screen and (min-width: 1367px) {
+    #GradeCalc {
+        width: 70%;
+        max-width: 600px;
+    }
+}
+
+	span{
+		color: #ec1545;
+	}
+
+	#heading{
+		display: inline;
+	}
+
+	#maininter{
+		font-family: 'Nunito';
+		font-weight: 350;
+		margin: 20px 60px 15px 60px;
+		padding-top: 10px;
+	}
+
+	#eym{
+		display: inline;
+	}
+
+
+	#numdisp{
+		border: 2px solid #FAA632;
+		color: white;
+		text-align: center;
+		width: 150px;
+		height: 40px;
+		font-size: 20px;
+	}
+
+	#enter{
+		width: 75px;
+	}
+
+	#result{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+		padding-bottom: 15px;
+	}

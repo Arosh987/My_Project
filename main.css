@@ -1,0 +1,93 @@
+/*i had to search up how to write comments in css to write this
+ anyways I hated doing this one*/
+
+#heading{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    border: 4.5px solid #ffe24d;
+    border-radius: 20px;    
+    background: linear-gradient(lightskyblue, lightblue);
+}
+
+#paraheading{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin: 0px 515px 5px 195px;
+    border: 4.5px solid #ffd740;
+    border-radius: 35px;
+}
+
+
+#para{
+    font-family: 'Nunito';
+    font-weight: 350;
+    overflow: auto;
+    display: block;
+    background-color: #eaf3ff;
+    border: 4.5px solid #555555;
+    border-radius: 20px;
+    padding: 10px;
+    min-height: 260px;
+}
+
+#para:hover{
+    background-color: #f5f5f5;
+}
+
+#changing{
+    margin-top: 35px;
+    float: right;
+}
+
+
+#page-control { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#chpol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 13px;
+}
+
+#page-control button{
+    width: 33px;
+    height: 33px;
+    border-radius: 6px;  
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+#page-control button:hover {
+    background-color: darkviolet;
+}
+
+#cards{
+    font-family: 'Nunito';
+    font-weight: 350;
+}
+
+#pol{
+    color: #ec1545;
+}
+
+
+#uns{
+    margin: 0px 300px 0px 300px;
+}

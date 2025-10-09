@@ -1,0 +1,13 @@
+#parad{
+	font-family: 'Nunito';
+	font-weight: 350;
+	font-size: 19px;
+	border: 4.5px solid #001C57;
+	margin: 0px 150px 0px 150px;
+	overflow: hidden;
+}
+
+#imgme{
+	float: right;
+	margin: 10px;
+}
